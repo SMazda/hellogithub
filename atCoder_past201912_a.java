@@ -1,6 +1,6 @@
 import java.util.*;
 
-class myatcodertest{
+class atCoder_past201912_a{
     private static int[] numChecker(){              //数字かどうかを判断するメソッド
         Scanner sc = new Scanner( System.in );      //入力受け取り
         String[] moji = sc.nextLine().split("");    //１文字ずつに分割
@@ -16,7 +16,7 @@ class myatcodertest{
     }
 
 
-    public static void Main(String[] args){
+    public static void main(String[] args){
         int[] nums;
         nums = numChecker();
 
